@@ -1,0 +1,64 @@
+body, html{
+	height: 100%;
+	margin: 0;
+
+}
+	.image1, .image2, .image3{
+	position: relative;
+	opacity: 0.65;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.image1{
+	background-image: url("IMG_4793.jpeg");
+	min-height: 100%;
+}
+.caption{
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	font-size: 25px;
+	letter-spacing: 10px;
+	padding: 25px;
+	margin: 0px;
+	color: white;
+
+}
+p{
+	margin: 0;
+	padding: 80px 80px;
+	text-align: center;
+	font: 400 15px/1.8 "Lato", sans-serif;
+}
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	font: 20px "Lato", sans-serif;
+}
+.image2{
+	background-image: url("IMG_4806.jpeg");
+	min-height: 400px;
+}
+span.border{
+	padding: 18px;
+	background-color: #111;
+	margin: 0;
+}
+.image3{
+	background-image: url("IMG_4857.jpeg");
+	min-height: 400px;
+}
+span.border2{
+	background-color: transparent;
+}
+.para2{
+	background-color: #282E34;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+	
+
